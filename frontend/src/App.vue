@@ -66,8 +66,8 @@ export default {
   },
   methods: {
     logout(){
-      localStorage.clear()
-      location.reload()
+      localStorage.removeItem("token")
+      this.user = null
     },
     onAuthChange() {
       const token = localStorage.getItem('token')
