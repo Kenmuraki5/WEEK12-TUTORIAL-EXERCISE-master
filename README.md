@@ -1,7 +1,9 @@
 # WEEK12 TUTORIAL + EXERCISE
-#for mac
+
+# for mac
 export NODE_OPTIONS=--openssl-legacy-provider
-#for window
+# for window
+
 set NODE_OPTIONS=--openssl-legacy-provider
 ในสัปดาห์นี้เราจะเรียนเกี่ยวกับการทำระบบ Authentication และ Authorization โดยพระเอกในสัปดาห์นี้คือตัว [Middleware](https://expressjs.com/en/guide/using-middleware.html) ของ express.js
 
